@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NMFUI'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'POC for NMF UI Components'
  
   s.description      = <<-DESC
@@ -15,15 +15,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/bell-jamesl/NMFUI.git', :tag => s.version.to_s }
   #s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
-  s.module_name = 'NMFUI'
+  #s.module_name = 'NMFUI'
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
   s.source_files = 'NMFUI/Sources/**/*.{swift,plist}'
   s.frameworks = 'UIKit', 'Foundation'
+  #s.dependency 'Alamofire', '~> 4.7.2'
 
   #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
-  #s.dependency 'Alamofire', '~> 4.7.2'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
