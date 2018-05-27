@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
-  s.source_files = 'Sources/**/*.{swift,plist}'
-  #s.source_files = 'NMF/**/*.{swift,plist}'
-  #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
+  s.source_files = 'NMFUI/Sources/**/*.{swift,plist}'
   s.frameworks = 'UIKit', 'Foundation'
+
+  #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
   #s.dependency 'Alamofire', '~> 4.7.2'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-  # s.ios.frameworks = "Foundation", "MobileCoreServices"
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
   # s.resource_bundles = {

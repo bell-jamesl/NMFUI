@@ -118,7 +118,6 @@
 			children = (
 				627D4ABD20BA7D5100FF4C27 /* UIKit */,
 				627D4AC320BA7D5100FF4C27 /* StringExtensions.swift */,
-				627D4AC420BA7D5100FF4C27 /* Foundation */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -133,13 +132,6 @@
 				627D4AC220BA7D5100FF4C27 /* UIColorExtensions.swift */,
 			);
 			path = UIKit;
-			sourceTree = "<group>";
-		};
-		627D4AC420BA7D5100FF4C27 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation;
 			sourceTree = "<group>";
 		};
 		627D4AC520BA7D5100FF4C27 /* Helpers */ = {
