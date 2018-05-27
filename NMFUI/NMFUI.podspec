@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/bell-jamesl/NMFUI.git', :tag => s.version.to_s }
   #s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
+  s.module_name = 'NMFUI'
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'

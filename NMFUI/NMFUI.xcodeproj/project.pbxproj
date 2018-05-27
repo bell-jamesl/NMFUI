@@ -10,15 +10,13 @@
 		627D4AA320BA7A6C00FF4C27 /* NMFUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627D4A9920BA7A6C00FF4C27 /* NMFUI.framework */; };
 		627D4AA820BA7A6C00FF4C27 /* NMFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D4AA720BA7A6C00FF4C27 /* NMFUITests.swift */; };
 		627D4AAA20BA7A6C00FF4C27 /* NMFUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 627D4A9C20BA7A6C00FF4C27 /* NMFUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		627D4AB520BA7AAA00FF4C27 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 627D4AB420BA7AAA00FF4C27 /* Podfile */; };
-		627D4AB920BA7C1700FF4C27 /* NMFUI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 627D4AB720BA7C1700FF4C27 /* NMFUI.podspec */; };
-		627D4ABA20BA7C1700FF4C27 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 627D4AB820BA7C1700FF4C27 /* LICENSE */; };
 		627D4AC620BA7D5100FF4C27 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D4ABE20BA7D5100FF4C27 /* UIImageExtensions.swift */; };
 		627D4AC720BA7D5100FF4C27 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D4ABF20BA7D5100FF4C27 /* UIViewExtensions.swift */; };
 		627D4AC820BA7D5100FF4C27 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D4AC020BA7D5100FF4C27 /* UIDeviceExtensions.swift */; };
 		627D4AC920BA7D5100FF4C27 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D4AC120BA7D5100FF4C27 /* UIFontExtensions.swift */; };
 		627D4ACA20BA7D5100FF4C27 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D4AC220BA7D5100FF4C27 /* UIColorExtensions.swift */; };
 		627D4ACB20BA7D5100FF4C27 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D4AC320BA7D5100FF4C27 /* StringExtensions.swift */; };
+		627D4AD720BA815700FF4C27 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 627D4AD520BA815700FF4C27 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +32,18 @@
 /* Begin PBXFileReference section */
 		627D4A9920BA7A6C00FF4C27 /* NMFUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NMFUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		627D4A9C20BA7A6C00FF4C27 /* NMFUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMFUI.h; sourceTree = "<group>"; };
-		627D4A9D20BA7A6C00FF4C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627D4AA220BA7A6C00FF4C27 /* NMFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		627D4AA720BA7A6C00FF4C27 /* NMFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMFUITests.swift; sourceTree = "<group>"; };
 		627D4AA920BA7A6C00FF4C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		627D4AB420BA7AAA00FF4C27 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../../../Podfile; sourceTree = "<group>"; };
-		627D4AB720BA7C1700FF4C27 /* NMFUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NMFUI.podspec; sourceTree = SOURCE_ROOT; };
-		627D4AB820BA7C1700FF4C27 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		627D4ABE20BA7D5100FF4C27 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		627D4ABF20BA7D5100FF4C27 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		627D4AC020BA7D5100FF4C27 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		627D4AC120BA7D5100FF4C27 /* UIFontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
 		627D4AC220BA7D5100FF4C27 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		627D4AC320BA7D5100FF4C27 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		627D4AD120BA807600FF4C27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627D4AD420BA815700FF4C27 /* NMFUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NMFUI.podspec; sourceTree = SOURCE_ROOT; };
+		627D4AD520BA815700FF4C27 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +86,10 @@
 		627D4A9B20BA7A6C00FF4C27 /* NMFUI */ = {
 			isa = PBXGroup;
 			children = (
+				627D4AD320BA814900FF4C27 /* Podspec Metadata */,
+				627D4ACE20BA802300FF4C27 /* Supporting Files */,
 				627D4ACC20BA7D5800FF4C27 /* Resources */,
 				627D4ABB20BA7D5100FF4C27 /* Sources */,
-				627D4AB620BA7C0600FF4C27 /* Podspec Metadata */,
-				627D4AB320BA7A9800FF4C27 /* Supporting Files */,
 				627D4A9C20BA7A6C00FF4C27 /* NMFUI.h */,
 			);
 			path = NMFUI;
@@ -105,24 +102,6 @@
 				627D4AA920BA7A6C00FF4C27 /* Info.plist */,
 			);
 			path = NMFUITests;
-			sourceTree = "<group>";
-		};
-		627D4AB320BA7A9800FF4C27 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				627D4AB420BA7AAA00FF4C27 /* Podfile */,
-				627D4A9D20BA7A6C00FF4C27 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		627D4AB620BA7C0600FF4C27 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				627D4AB820BA7C1700FF4C27 /* LICENSE */,
-				627D4AB720BA7C1700FF4C27 /* NMFUI.podspec */,
-			);
-			path = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		627D4ABB20BA7D5100FF4C27 /* Sources */ = {
@@ -176,6 +155,23 @@
 			);
 			path = Resources;
 			sourceTree = SOURCE_ROOT;
+		};
+		627D4ACE20BA802300FF4C27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				627D4AD120BA807600FF4C27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		627D4AD320BA814900FF4C27 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				627D4AD520BA815700FF4C27 /* LICENSE */,
+				627D4AD420BA815700FF4C27 /* NMFUI.podspec */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -268,9 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627D4ABA20BA7C1700FF4C27 /* LICENSE in Resources */,
-				627D4AB920BA7C1700FF4C27 /* NMFUI.podspec in Resources */,
-				627D4AB520BA7AAA00FF4C27 /* Podfile in Resources */,
+				627D4AD720BA815700FF4C27 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -425,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
