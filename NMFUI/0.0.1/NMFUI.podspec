@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
   s.swift_version = '4.0'
   s.source_files = 'NMFUI/Sources/**/*.{swift,plist}'
   s.frameworks = 'UIKit', 'Foundation'
+  #s.dependency 'Alamofire', '~> 4.7.2'
 
   #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
-  #s.dependency 'Alamofire', '~> 4.7.2'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
